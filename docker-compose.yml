@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: gym_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./Database/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+
+  api:
+    build:
+      context: .
+      dockerfile: GymManagement.API/Dockerfile
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=db;Port=5432;Database=gym_db;Username=postgres;Password=postgres
+    ports:
+      - "5000:8080" # Maps port 5000 on host to 8080 (ASP.NET 8 default)
+    depends_on:
+      - db
+
+volumes:
+  pgdata:

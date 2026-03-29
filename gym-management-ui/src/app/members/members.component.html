@@ -1,0 +1,110 @@
+<div class="container fade-in">
+  <div class="header-section">
+    <h2 class="page-title">Manage Members</h2>
+    <p class="subtitle">Efficiently track and manage your gym community</p>
+  </div>
+
+  <div class="dashboard-grid">
+    <!-- Member Form Section -->
+    <div class="glass-panel form-card">
+      <div class="section-header">
+        <i class="fas fa-user-plus"></i>
+        <h3>Add New Member</h3>
+      </div>
+
+      <form (ngSubmit)="addMember()" class="modern-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label><i class="fas fa-id-card"></i> Name</label>
+            <input type="text" [(ngModel)]="newMember.name" name="name" required placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label><i class="fas fa-birthday-cake"></i> Age</label>
+            <input type="number" [(ngModel)]="newMember.age" name="age" required placeholder="25">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label><i class="fas fa-phone"></i> Phone Number</label>
+          <input type="text" [(ngModel)]="newMember.phone" name="phone" required placeholder="+1 234-567-890">
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label><i class="fas fa-dumbbell"></i> Trainer</label>
+            <select [(ngModel)]="newMember.trainerId" name="trainerId">
+              <option [ngValue]="undefined"> Trainer Assigned </option>
+              <option *ngFor="let trainer of trainers" [ngValue]="trainer.trainerId">
+                {{ trainer.name }} ({{ trainer.specialization }})
+              </option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label><i class="fas fa-layer-group"></i> Membership Plan</label>
+            <select [(ngModel)]="newMember.planId" name="planId" required>
+              <option [ngValue]="0" disabled> Select Membership Plan </option>
+              <option *ngFor="let plan of plans" [ngValue]="plan.planId">
+                {{ plan.planName }} - ${{ plan.price }} ({{ plan.durationMonths }} Mo)
+              </option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-primary full-width">
+          <i class="fas fa-check-circle"></i> Register Member
+        </button>
+      </form>
+    </div>
+
+    <!-- Members List Section -->
+    <div class="glass-panel table-card">
+      <div class="section-header">
+        <i class="fas fa-list"></i>
+        <h3>Member Directory</h3>
+      </div>
+
+      <div class="responsive-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Member</th>
+              <th>Contact</th>
+              <th>Membership</th>
+              <th>Trainer</th>
+              <th class="text-right">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let member of members" class="table-row">
+              <td>
+                <div class="member-info">
+                  <span class="member-name">{{ member.name }}</span>
+                  <span class="member-meta">Age: {{ member.age }}</span>
+                </div>
+              </td>
+              <td>{{ member.phone }}</td>
+              <td>
+                <span class="badge">{{ member.planName }}</span>
+              </td>
+              <td class="trainer-cell">
+                <i class="fas fa-user-tie" *ngIf="member.trainerName"></i>
+                {{ member.trainerName || '---' }}
+              </td>
+              <td class="text-right">
+                <button (click)="deleteMember(member.memberId)" class="btn-icon-danger" title="Delete Member">
+                  <i class="fas fa-trash-alt"></i>
+                </button>
+              </td>
+            </tr>
+            <tr *ngIf="members.length === 0">
+              <td colspan="5" class="empty-state">
+                <i class="fas fa-users-slash"></i>
+                <p>No members found</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

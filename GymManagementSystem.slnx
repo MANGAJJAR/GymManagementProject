@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="GymManagement.API/GymManagement.API.csproj" />
+  <Project Path="GymManagement.Core/GymManagement.Core.csproj" />
+  <Project Path="GymManagement.Infrastructure/GymManagement.Infrastructure.csproj" />
+  <Project Path="GymManagement.WinForms/GymManagement.WinForms.csproj" />
+</Solution>

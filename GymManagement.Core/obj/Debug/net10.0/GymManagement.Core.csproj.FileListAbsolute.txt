@@ -1,0 +1,11 @@
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Core\bin\Debug\net10.0\GymManagement.Core.deps.json
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Core\bin\Debug\net10.0\GymManagement.Core.dll
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Core\bin\Debug\net10.0\GymManagement.Core.pdb
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Core\obj\Debug\net10.0\GymManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Core\obj\Debug\net10.0\GymManagement.Core.AssemblyInfoInputs.cache
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Core\obj\Debug\net10.0\GymManagement.Core.AssemblyInfo.cs
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Core\obj\Debug\net10.0\GymManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Core\obj\Debug\net10.0\GymManagement.Core.dll
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Core\obj\Debug\net10.0\refint\GymManagement.Core.dll
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Core\obj\Debug\net10.0\GymManagement.Core.pdb
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Core\obj\Debug\net10.0\ref\GymManagement.Core.dll

@@ -1,0 +1,37 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.form-section {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.form-section div {
+  margin-bottom: 10px;
+}
+label {
+  display: inline-block;
+  width: 100px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+.btn-danger {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+button {
+  padding: 5px 15px;
+  cursor: pointer;
+}

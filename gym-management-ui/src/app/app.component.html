@@ -1,0 +1,23 @@
+<header class="main-header">
+  <div class="logo">
+    <a routerLink="/" style="text-decoration: none; color: inherit; display: flex; align-items: center; gap: 0.75rem;">
+      <i class="fas fa-dumbbell"></i>
+      <span>Titan<span>Gym</span></span>
+    </a>
+  </div>
+  <nav class="main-nav">
+    <a routerLink="/members" routerLinkActive="active">
+      <i class="fas fa-users"></i> Members
+    </a>
+    <a routerLink="/trainers" routerLinkActive="active">
+      <i class="fas fa-user-tie"></i> Trainers
+    </a>
+    <a routerLink="/plans" routerLinkActive="active">
+      <i class="fas fa-clipboard-list"></i> Plans
+    </a>
+  </nav>
+</header>
+
+<main class="content-wrapper">
+  <router-outlet></router-outlet>
+</main>

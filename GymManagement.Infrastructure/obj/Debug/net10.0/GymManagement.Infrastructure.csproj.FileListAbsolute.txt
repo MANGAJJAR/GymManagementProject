@@ -1,0 +1,17 @@
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\bin\Debug\net10.0\GymManagement.Infrastructure.deps.json
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\bin\Debug\net10.0\GymManagement.Infrastructure.runtimeconfig.json
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\bin\Debug\net10.0\GymManagement.Infrastructure.dll
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\bin\Debug\net10.0\GymManagement.Infrastructure.pdb
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\bin\Debug\net10.0\GymManagement.Core.dll
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\bin\Debug\net10.0\GymManagement.Core.pdb
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\obj\Debug\net10.0\GymManagement.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\obj\Debug\net10.0\GymManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\obj\Debug\net10.0\GymManagement.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\obj\Debug\net10.0\GymManagement.Infrastructure.AssemblyInfo.cs
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\obj\Debug\net10.0\GymManagement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\obj\Debug\net10.0\GymManag.01D5B840.Up2Date
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\obj\Debug\net10.0\GymManagement.Infrastructure.dll
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\obj\Debug\net10.0\refint\GymManagement.Infrastructure.dll
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\obj\Debug\net10.0\GymManagement.Infrastructure.pdb
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\obj\Debug\net10.0\GymManagement.Infrastructure.genruntimeconfig.cache
+C:\Users\Yash Gajjar\Desktop\GymManagementProject\GymManagement.Infrastructure\obj\Debug\net10.0\ref\GymManagement.Infrastructure.dll

@@ -1,0 +1,46 @@
+<div class="container fade-in">
+  <div class="header-section">
+    <h2 class="page-title">Our Expert Trainers</h2>
+    <p class="subtitle">Meet the professionals dedicated to your fitness journey</p>
+  </div>
+
+  <div class="glass-panel">
+    <div class="responsive-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Full Name</th>
+            <th>Specialization</th>
+            <th>Availability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let trainer of trainers" class="table-row">
+            <td>
+              <div class="member-info">
+                <span class="member-name">{{ trainer.name }}</span>
+                <span class="member-meta">Certified Professional</span>
+              </div>
+            </td>
+            <td>
+              <span class="badge" style="background: rgba(79, 70, 229, 0.1); color: var(--primary); border-color: rgba(79, 70, 229, 0.2);">
+                {{ trainer.specialization }}
+              </span>
+            </td>
+            <td>
+              <span style="color: var(--secondary); font-weight: 500;">
+                <i class="fas fa-check-circle"></i> Available for PT
+              </span>
+            </td>
+          </tr>
+          <tr *ngIf="trainers.length === 0">
+            <td colspan="3" class="empty-state">
+              <i class="fas fa-user-slash"></i>
+              <p>No trainers listed yet</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
